@@ -1,2 +1,4 @@
-Ciekawe czy cos takiego bedzie działać ale mam nadzieję, że to będzie super 
-Vim to jest jednak super sprawa
+robimy jedna linijke testowa do tego programu
+robimy druga linijke tesotwa do tego programu 
+i tak samo z trzecia i czwarta ale tez nie wiem czy ala ma w koncu tego kota czy jednak nie ma
+czy cos tbedzie alenadzieję
