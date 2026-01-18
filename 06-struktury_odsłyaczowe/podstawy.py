@@ -19,6 +19,13 @@ def include(first, value):
     return False
 
 
+def add_new_first_element(value, first):
+    new_node = Node(value)
+    new_node.next = first
+    first = new_node
+    return first
+
+
 # dodawanie elementu
 def insert(value, first):
     new_node = Node(value)
@@ -126,6 +133,7 @@ def union(first1, first2):
 
     return dummy.next
 
+
 # czesc wspolna zbiorow
 def intersection(first1, first2):
     dummy = Node(0)
@@ -148,6 +156,7 @@ def intersection(first1, first2):
 
     return dummy.next
 
+
 # podzbiór (B⊂A)
 def subset(firstSup, firstInf):
     currS = firstSup
@@ -163,6 +172,7 @@ def subset(firstSup, firstInf):
             currS = currS.next
 
     return currI is None
+
 
 # różnica zbiorów (A\B)
 def complement_of_set(firstA, firstB):
